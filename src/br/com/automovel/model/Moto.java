@@ -23,6 +23,11 @@ public class Moto extends Veiculo implements ControlaAuto {
         }
     }
 
+    //Toggle do Led
+    public void toggleEmpinar() {
+        this.empinada = !empinada;
+    }
+
 
     @Override
     public void acelerar() {
